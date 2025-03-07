@@ -1,4 +1,4 @@
-# group_12_project
+# school_quest
 
 A new Flutter project.
 
