@@ -232,7 +232,9 @@ class _SignupScreenState extends State<SignupScreen> {
                         // Sign-Up Button
                         Expanded(
                           child: ElevatedButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.pushNamed(context, '/signin');
+                            },
                             style: ElevatedButton.styleFrom(
                               backgroundColor: const Color(0xFF004c6d),
                               foregroundColor: Colors.white,
